@@ -5,5 +5,6 @@
 
 - (void) getInfos:(CDVInvokedUrlCommand*)command;
 - (void) clear:(CDVInvokedUrlCommand*)command;
+- (void) fetch:(CDVInvokedUrlCommand*)command;
 
 @end

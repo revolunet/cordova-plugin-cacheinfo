@@ -30,7 +30,7 @@ returns
 }
 ```
 
-
+reset Safari cache : `cordova.plugins.CacheInfo.clear()`
 
 ## Licence MIT
 
