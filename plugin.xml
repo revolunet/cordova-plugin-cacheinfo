@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-cacheinfo" version="1.0.0">
+
+    <name>cordova-plugin-cacheinfo</name>
+    <description>Webview cache informations</description>
+    <license>MIT</license>
+    <repo>https://github.com/revolunet/cordova-plugin-cacheinfo.git</repo>
+
+    <engines>
+        <engine name="cordova" version="3.*" />
+    </engines>
+
+    <js-module src="www/CacheInfo.js" name="CacheInfo">
+        <clobbers target="cordova.plugins.CacheInfo"/>
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CDVCacheInfo">
+                <param name="ios-package" value="CDVCacheInfo" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVCacheInfo.h" />
+        <source-file src="src/ios/CDVCacheInfo.m" />
+    </platform>
+
+</plugin>

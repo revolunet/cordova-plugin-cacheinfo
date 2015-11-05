@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-cacheinfo",
+  "version": "1.0.0",
+  "description": "Webview cache informations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolunet/cordova-plugin-cacheinfo.git"
+  },
+  "author": "Julien Bouquillon <julien.bouquillon@synchronized.tv>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revolunet/cordova-plugin-cacheinfo/issues"
+  },
+  "homepage": "https://github.com/revolunet/cordova-plugin-cacheinfo#readme"
+}
